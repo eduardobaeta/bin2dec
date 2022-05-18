@@ -23,6 +23,7 @@ function App() {
 
   return (
     <Container>
+      <h1>Binary to Decimal converter</h1>
       <form onSubmit={binToDec} action="">
         <div>
           <label htmlFor="binari">Input a binari number:</label>
@@ -37,7 +38,7 @@ function App() {
         </div>
         <div>
           <label htmlFor="decimal">Decimal number:</label>
-          <p className='decimal'>{decimal}</p>
+          <p className='decimal'><b>{decimal}</b></p>
         </div>
       </form>
     </Container>
